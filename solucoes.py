@@ -1,6 +1,11 @@
 def sao_anagramas(string1, string2):
-    #TODO
-    pass
+  s1_normalizada = string1.replace(" ", "").lower()
+  s2_normalizada = string2.replace(" ", "").lower()
+  
+  if len(s1_normalizada) != len(s2_normalizada):
+    return False
+
+  return sorted(s1_normalizada) == sorted(s2_normalizada)
 
 def cifra_de_cesar(texto, deslocamento):
     #TODO

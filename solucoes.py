@@ -33,3 +33,8 @@ def encontrar_maior_palavra(frase):
       maior_palavra = palavra
 
   return maior_palavra
+
+
+print(f"'O rato roeu a roupa do rei de Roma' -> '{encontrar_maior_palavra('O rato roeu a roupa do rei de Roma')}'")
+print(f"'A jornada de mil milhas começa com um único passo.' -> '{encontrar_maior_palavra('A jornada de mil milhas começa com um único passo.')}'")
+print(f"'Seja forte e corajoso' -> '{encontrar_maior_palavra('Seja forte e corajoso')}'")

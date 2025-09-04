@@ -15,6 +15,14 @@ def cifra_de_cesar(texto, deslocamento):
 
     return resultado
 
+mensagem = "Teste de print"
+deslocamento = 3
+
+texto_cifrado = cifra_de_cesar(mensagem, deslocamento)
+
+print("Original :", mensagem)
+print("Cifrado  :", texto_cifrado)
+
 def valida_cpf(cpf_string):
     #TODO
     pass
